@@ -1,0 +1,420 @@
+@font-face{
+	 src: url("../fontes/OpenSans-ExtraBold.ttf");
+	 font-family: 'OpenSans-ExtraBold';
+}
+
+#logo{
+	float:left;
+	margin-left:5%;
+	margin-top:1%;
+	width: auto;
+	margin-right:13%;
+	clear:both;
+}
+
+#topo{
+	background-color: black;
+	margin-left: -1%;
+	margin-top: -1%;
+	margin-bottom: 2%;
+}
+
+#menu
+{
+	overflow: hidden;
+	background-color: black;
+	font-family: calibri;
+}
+
+#menu a
+{
+	float: left;
+	font-size: 140%;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	padding: 14px 16px;
+	margin-top:4%;
+}
+
+#dropdown
+{
+	float: left;
+	overflow: hidden;
+	margin-top:4%;
+}
+
+#dropdown #botaoDropdown
+{
+	font-size: 140%;
+	border: none;
+	outline: none;
+	color: white;
+	padding: 14px 16px;
+	background-color: black;
+	font-family: inherit;
+	margin: 0;
+}
+
+#dropdown:hover #botaoDropdown
+{
+	background-color: #111111;
+}
+
+#menu a:hover, #dropdown:hover #botaoDropdown
+{
+	color:rgb(90,24,234);
+   	transition: color 1s;
+}
+
+#conteudoDropdown
+{
+	display: none;
+	position: absolute;
+	background-color: #111111;
+	max-width: 104px;
+	z-index: 1;
+}
+
+#conteudoDropdown a:hover
+{
+	background-color: #black;
+}
+
+#dropdown:hover #conteudoDropdown
+{
+	display: block;
+}
+
+div#idiomas
+{
+	float: right;
+	margin-top:3%;
+	margin-right: 10%;
+}
+
+img#bandeiras
+{
+	max-width: 40px;
+}
+
+body{
+	width: 100%;
+    height: 100%;       
+	background:linear-gradient(to top, rgb(115,115,115),rgb(90,24,234),rgb(115,115,115),rgb(90,24,234));
+}
+
+#corpo{
+	background-color:white;
+	margin-bottom:none;
+	margin-left:3%;
+	margin-right:3%;
+	color:rgb(0,0,0);
+	height: auto;
+}
+
+/*-------------Titulos-----------*/
+h1#tituloEmpresa{	
+	font-family:'OpenSans-ExtraBold';
+	font-size: 225%;
+	color: #000000;
+	margin: 0% 15%;
+	border-style:solid;
+	border-color:rgb(0,0,0);
+	border-width:5%;
+}
+
+h1#tituloMissao{	
+	font-family:'OpenSans-ExtraBold';
+	font-size: 225%;
+	color: #000000;
+	margin: 0% 15%;
+	border-style:solid;
+	border-color:rgb(0,0,0);
+	border-width:5%;
+}
+
+h1#tituloPort{
+	font-family:'OpenSans-ExtraBold';
+	font-size: 225%;
+	color: #000000;
+	margin: 0% 15%;
+	border-style:solid;
+	border-color:rgb(0,0,0);
+	border-width:5%;
+}
+
+#conteudoPort
+{
+	margin-left: 10%;
+}
+
+figure#flyer img
+{
+	max-width: 100%;
+	max-height: auto;
+	width: auto;
+	height: auto;
+	float: left;
+}
+
+#logo1
+{
+	margin-top: 3%;
+}
+
+#logo2
+{
+	margin-top:7.5%;
+}
+
+img.logosPort
+{
+	width: 400px;
+	height: auto;
+}
+
+
+h1#tituloLocal{
+	font-family:'OpenSans-ExtraBold';
+	font-size: 225%;
+	color: #000000;
+	margin: 0% 15%;
+	border-style:solid;
+	border-color:rgb(0,0,0);
+	border-width:5%;
+}
+
+h1#tituloSac{
+	padding-top: 2%; 
+	font-family: 'OpenSans-ExtraBold';
+	font-size: 200%;
+}
+
+/*----------Textos---------*/
+p#text{
+	text-indent: 50px;
+	font-family: calibri;
+	border: 2px solid #424242; 
+	max-width: 60%;
+	font-size: 150%;
+	justify-content: center;
+}
+
+/*--------Imagens--------*/
+
+figure.foto{
+	position: relative;
+	border-bottom: 3px solid white;
+	border-top: 3px;
+}
+
+figure.foto img{
+	min-width: 400px;
+	max-height: auto;
+	width: 57%;
+	height: auto;
+}
+
+figure.foto figcaption{
+	opacity:0;
+	position: absolute;
+	top: 0%;
+	background-color:rgba(0,0,0,0.5);
+	color: white;
+	width: 100%;
+	height: 105%;
+	min-width: 400px;
+	transition: opacity 1s;
+	font-family: Lucida Sans Unicode;
+	text-align: left;
+	margin-top: -1%;
+	font-size:18px;
+	text-align: center;
+	justify-content: center;
+}
+
+figure.foto:hover figcaption{
+	opacity:1;
+}
+
+.escuro{
+	color: rgb(66,49,173);
+	font-family:'OpenSans-ExtraBold';
+	text-align:left;
+	margin-bottom: -20px;
+	font-size:36px;
+	padding: 10px;
+	margin-left:-8px;
+	text-align: center;
+	justify-content: center;
+} 
+
+.claro{
+	color: #a6a6a6;
+	font-family: 'OpenSans-ExtraBold';
+	text-align:left;
+	margin-bottom: -20px;
+	font-size:36px;
+	padding: 10px;
+	text-align: center;
+	justify-content: center;
+}
+
+figure#gif img
+{
+	max-width: 100%;
+	max-height: auto;
+	width: auto;
+	height: auto;
+	margin-top: -2%;
+}
+
+#valores{
+	border: 2px solid #424242; 
+	max-width: 57.2%;
+	font-size: 150%;
+	padding: 5px 0px;
+	text-align: left;
+	list-style: none;
+}
+
+#valores li{
+	font-family: calibri;
+	padding: 0px 20px;
+}
+
+p#infoPort{
+	font-family: calibri;
+	border: 2px solid #424242; 
+	max-width: 55%;
+	font-size: 150%;
+	padding: 5px 0px;
+}
+
+p#infoLocal{
+	font-family: calibri;
+	border: 2px solid #424242; 
+	max-width: 850px;
+	font-size: 150%;
+	padding: 5px 0px;
+}
+
+/* Maps responsivo */
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:40%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:19.9%;
+    top:0;    
+	width:60%;
+    height:95%;
+    position:absolute;
+}
+
+input[type=text],input[type=email],input[type=tel],input[type=date]{
+	font-size: 80%;
+}
+
+h1#tituloDados{
+	font-family: 'OpenSans-ExtraBold';
+	font-size: 200%;
+}
+
+form{
+	height: auto;
+	width: 65%;
+	font-family: cursive;
+	font-size: 125%;
+}
+
+legend{
+	color:rgb(0,0,0);
+}
+
+input#enviarDados[type=button], input#apagarDados[type=reset]{
+	border-color:#5A22EA;
+}
+
+input#enviarSac[type=button], input#apagarSac[type=reset]{
+	border-color:#5A22EA;
+}
+
+input.contatoSac
+{
+	width: 100%;
+}
+
+textarea
+{
+	resize: none;
+	border-color:#7F3AD7;
+    width: 60%;
+}
+
+fieldset{
+	border-color:#5A22EA;
+}
+
+footer
+{
+	background: rgb(0,0,0);
+	position: absolute;
+	margin-left: -1%;
+	margin-bottom: -1%;
+	margin-top: 0;
+	width: 101%;
+	height: auto;
+	max-width: auto;
+}
+
+div#rodapetxt
+{
+	padding: 1%;
+	font-size:120%;
+	font-family: calibri;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+div#socialMedia
+{
+	margin-top: -5%;
+	float: right;
+	margin-right: 18%;
+}
+
+#socialMedia td
+{
+	padding: 5px;
+}
+
+/* Botão voltar */
+#myBtn {
+	display: none;  
+	position: fixed; 
+	bottom: 20px; 
+	right: 30px; 
+	z-index: 99; 
+	border: none; 
+	outline: none; 
+	background-color: gray; 
+	color:rgb(0,0,0);
+	font-weight: bolder; 
+	cursor: pointer; 
+	padding: 10px; 
+	border-radius: 10px; 
+	font-size: 20px;
+	margin-right: 0px;
+	font-family:calibri;
+}
+
+#myBtn:hover {
+	background-color: rgb(90,24,234);
+	color: rgb(255,255,255);
+	transition:color 0.5s;
+}
+

@@ -1,0 +1,301 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8"/>
+	<title>Archnology Corp</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body>
+	<button onclick="topFunction()" id="myBtn" title="Voltar para cima">Top</button>
+	
+	<header id="topo">	
+		<div id = "menu">	
+			<img id="logo" src="img/ArchnologyLogo.jpg" alt="logo da empresa"/>			
+			<a href="#Empresa">Company</a>
+			<a href = "#Portfolio">Portfolio</a>
+			<a href = "#Localizacao">Location</a>
+			<div id="dropdown">
+				<button id="botaoDropdown">Suport</button>
+				<div id="conteudoDropdown">
+					<a href="#Dados">Contact us</a>
+					<a href="#Sac">CSC</a>
+				</div>			
+			</div>
+			<div id="idiomas">
+				<a href= "IndexArchnology PT-BR.html"><img id="bandeiras" src="img/brasil.png" alt="bandeira do brasil"/></a>
+				<a href= "IndexArchnology EN.html"><img id="bandeiras" src="img/eua.png" alt="bandeira do eua"/></a>
+			</div>
+		</div>
+	</header>
+	
+	<center>
+		<div id = "corpo">
+			<br>
+			<br><br>
+			<br>
+			<section id="Empresa">
+				<h1 class="titulos" id="tituloEmpresa">About the Company</h1>
+				<p id="text"> The company was founded in May 6th, 2020 by Cleber Rodrigues de Souza, aiming to supply the need of companies and professionals in technology area. Since his childhood, Cleber shown an interest in technology and saw his future in it.  As he got older, people began to show interest in the same idea were gathered.
+					<p id="text">Thereby, Alessandra, Cleber, Eduardo, Leonardo, Railson and Ruthe began the corporation’s development, creating websites, systems and databases. Since that day, we have worked to contribute more and more to the technology market.</p>
+				</p>
+				<br>
+				<div>
+					<figure class="foto">
+						<img src="img/photo.jpeg">
+						<figcaption>
+							<h2 class="claro">Arch<span class="escuro">nology</span></h2>
+							<p> <p class="legenda">building the connection between you and the future</p></p> 
+						</figcaption>
+					</figure>
+				</div>
+
+				<h1 class="titulos" id="tituloMissao">Mission and Values</h1>
+				<p id="text">Our greatest aspiration as professionals, and especially as people, is to reach all kinds of audiences as much as possible, so that they can be aware of the capability that technology together with our company can achieve.
+				Thus, seeking to grow in the market, as well as in the contact with the various types of audiences.
+
+				</p>
+
+				<p id="text">	
+					Our priorities are to attend our entire public with a series of values aim the commitment to the client, always solving all their needs:
+				</p>
+				<ul id="valores">
+
+					<center>
+						<figure id="gif">
+							<img src="img/anigif.gif">
+						</figure>
+					</center>
+
+					<li>- Trust and respect for everyone, regardless of position or relationship;</li>
+					<li>- Love what we do;</li>
+					<li>- Offer a good working environment;</li>
+					<li>- Prioritize customer satisfaction and the quality of our services;</li>
+					<li>- Always keep the ethics;</li>
+					<li>- Professional improvement.</li>
+				</ul>
+			</section>
+			<hr/>
+			<section id="Portfolio">
+				<h1 id="tituloPort">Portfolio</h1>
+				<div id="conteudoPort">
+					<figure id="flyer">
+						<img src="img/flyerEN.png">
+					</figure>
+					<br>
+					<div id="logo1">
+						<a href="https://www.riotgames.com/pt-br" target="_blank"><img class="logosPort" src="img/Logo2.png"></a>
+					</div>
+					<div id="logo2">
+						<a href="https://www.cobasi.com.br/" target="_blank"><img class="logosPort" src="img/Logo6.png"></a>
+						<br style="clear:both" />
+					</div>
+				</div>
+			</section>
+			<br/>
+			<hr/>
+			<br/>
+
+			<section id="Localizacao">
+				<h1 id="tituloLocal"> Location </h1>
+				<p id="text">Here will be shown the location of our company. Through the map below, you will be able to access the exact location where our company operates.</p>
+				<div class="map-responsive">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.3221444192686!2d-46.73095068447645!3d-23.520913165986226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef8c1d3806777%3A0x8d03885c01c45d8a!2sR.%20Guaip%C3%A1%2C%20678%20-%20Vila%20Leopoldina%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2002675-031!5e0!3m2!1spt-BR!2sbr!4v1591311724546!5m2!1spt-BR!2sbr" 
+					width="750px" 
+					height="500px" 
+					frameborder="0"
+					style="border:2px solid #5A22EA;" 
+					allowfullscreen="" 
+					aria-hidden="false" 
+					tabindex="0">
+				</iframe>
+			</div>
+		</section>
+		
+		<br/>
+		<hr/>
+		<br/>
+
+		<section id="Dados">
+			<h1 id="tituloDados"> Contact us </h1>
+			<form>
+				<fieldset>
+					<legend> &nbsp; <b/>Contact Details &nbsp;</legend>
+					<p id="txtdados"> Insert your personal information below to contact us</p>
+					<table>
+						<tr>
+							<td>Name:</td>
+							<td><input class="contatoSac" id="nomeDados" type="text" maxlength="40" placeholder=" Type your name"/></td>
+						</tr>
+
+						<tr>
+							<td>Phone number: </td>
+							<td><input class="contatoSac" id="foneDados" type="tel" maxlength="12" placeholder=" Type your phone number"/></td>	
+						</tr>
+
+						<tr>
+							<td>E-mail: </td>
+							<td><input class="contatoSac" id="e-mailDados" type="email" placeholder=" Type your e-mail"/></td>
+						</tr>
+
+						<tr>
+							<td>Gender: </td>
+							<td>
+								<input name="sexo" id="txtsexom" type = "radio" value="M" checked/>Male
+								<br>
+								<input name="sexo" id="txtsexof" type = "radio" value="F"/>Female
+							</td>
+						</tr>
+					</table>
+				</fieldset>
+
+				<fieldset>
+					<legend>&nbsp; Address &nbsp;</legend>
+					<table>
+						<tr>
+							<td>Address: </td>
+							<td><input class="contatoSac" id="logradouroDados" type="text" placeholder=" Type the street/avenue"/></td>
+						</tr>
+						<tr>
+							<td>Nº:</td>
+							<td><input class="contatoSac" id="numeroDados" type="text" min="0" max="99999" placeholder=" 1234"/></td>
+						</tr>
+						<tr>
+							<td>State: </td>
+							<td>
+								<select id="textuf">
+									<option selected/>...
+									<option/>AC
+									<option/>AL
+									<option/>AP
+									<option/>AM
+									<option/>BA
+									<option/>CE
+									<option/>DF
+									<option/>ES
+									<option/>GO
+									<option/>MA
+									<option/>MT
+									<option/>MS
+									<option/>MG
+									<option/>PA
+									<option/>PB
+									<option/>PR
+									<option/>PE
+									<option/>PI
+									<option/>RJ
+									<option/>RN
+									<option/>RS
+									<option/>RO
+									<option/>RR
+									<option/>SC
+									<option/>SP
+									<option/>SE
+									<option/>TO
+								</select> 
+							</td> 
+						</tr>
+					</table>
+				</fieldset>
+
+				<fieldset>
+					<table>
+						<legend>&nbsp; Activities developed by the company &nbsp;</legend>
+						<hr/>
+						<tr>
+							<td> Select the type of service you would like:</td> 
+						</tr>
+						<tr>
+							<td style="text-align: center"> 
+								<select id="textdev">
+									<option selected/>...
+									<option/>System
+									<option/>Website/Web Implementation
+									<option/>Database
+									<option/>Digital Design
+									<option/>Integrated database system
+								</select>
+							</td>
+						</tr>
+					</table>
+
+					<table>
+						<tr>
+							<td><input id="enviarDados" type="button" value="SEND" onclick = "alert('Cadastro efetuado com sucesso. Aguarde resposta da empresa no telefone ou e-mail inserido.')"/></td>
+							<td><input id="apagarDados" type="reset" value="DELETE" onclick ="limpar()"/></td>
+						</tr>
+					</table>
+				</fieldset>
+			</form>
+		</section>
+
+		<section id="Sac">
+			<h1 id= "tituloSac"> CSC - Customer Service Center </h1>
+			<form>
+				<fieldset>
+					<legend> &nbsp;Enter your name and email so we can get in touch&nbsp;</legend>
+					<table id="tabelaSac">
+						<hr/>
+						<tr>
+							<td>Name:</td>
+							<td><input class="contatoSac" id="nomeSac" type="text" maxlength="40" placeholder=" Type your name"/></td>
+						</tr>
+						<tr>
+							<td>E-mail:</td>
+							<td><input class="contatoSac" id="emailSac" type="email" size="11%" maxlength="20" placeholder=" Type your e-mail"> 
+							</tr>
+						</table>
+						<hr/>
+						<legend> Type your comment in the field below:</legend>
+						<br/>
+						<textarea rows="10" ></textarea>
+						<hr/>
+						<table>
+							<tr>
+								<td><input id="enviarSac" type="button" value="SEND" onclick="alert('Sua mensagem foi processada com sucesso! Esperamos que sua experiência em nosso site tenha sido produtiva!')"/></td>
+								<td><input id="apagarSac" type="reset" value="DELETE" onclick="limpar()"/></td>
+							</tr>
+						</table>
+					</fieldset>
+				</form>
+				<br>
+			</section>
+			<script type="text/javascript">
+				mybutton = document.getElementById("myBtn");
+
+				window.onscroll = function() {scrollFunction()};
+
+				function scrollFunction() {
+					if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+						mybutton.style.display = "block";
+					} else {
+						mybutton.style.display = "none";
+					}
+				}
+
+				function topFunction() {
+					document.body.scrollTop = 0;
+					document.documentElement.scrollTop = 0;
+				}
+			</script>	
+		</div>
+
+	</center>
+	<footer>
+		<div id="rodapetxt">
+			Alessandra, Cleber, Eduardo, Emily (Ruthe), Leonardo, Railson<br/>
+			Archnology@2020 – Copyright – All Rights Reserved.
+		</div>
+		<div id= "socialMedia">
+		<br style="clear:both" />
+			<table>
+				<tr>
+					<td><a href="https://www.facebook.com/Archnology-Corporation-111077527273565" target="_blank"><img id="facebook" src="img/facebook.png" alt="facebook" width="32" height="32"/></a></td>
+					<td><a href="https://www.instagram.com/archnologycorp/" target="_blank"><img id="instagram" src="img/instagram.png" alt="instagram"width="32" height="32"/></a></td>
+					<td><a href="https://www.linkedin.com/in/archnology-corp-9950101aa" target="_blank"><img id="linkedin" src="img/linkedin.png" alt="linkedin" width="32" height="32"/></a></td>
+					<td><a href="https://twitter.com/archnologycorp" target="_blank"><img id="twitter" src="img/twitter.png" alt="twitter" width="32" height="32"/></a></td>
+				</tr>
+			</table>
+		</div>
+	</footer>
+</body>
+</html>
